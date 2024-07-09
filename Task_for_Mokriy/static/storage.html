@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Storage System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 8px 16px;
+            margin-right: 10px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <script>
+        async function sendRequest(url, method, data) {
+            const response = await fetch(url, {
+                method: method,
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data)
+            });
+            const result = await response.json();
+            alert(result.message || result.detail || JSON.stringify(result));
+        }
+
+        function addPool() {
+            const name = document.getElementById("pool_name").value;
+            sendRequest("/add_pool/", "POST", {name: name});
+        }
+
+        function removePool() {
+            const name = document.getElementById("pool_name_remove").value;
+            sendRequest("/remove_pool/", "POST", {name: name});
+        }
+
+        function addSchema() {
+            const poolName = document.getElementById("schema_pool_name").value;
+            const schemaName = document.getElementById("schema_name").value;
+            sendRequest("/add_schema/", "POST", {pool_name: poolName, schema_name: schemaName});
+        }
+
+        function removeSchema() {
+            const poolName = document.getElementById("schema_pool_name_remove").value;
+            const schemaName = document.getElementById("schema_name_remove").value;
+            sendRequest("/remove_schema/", "POST", {pool_name: poolName, schema_name: schemaName});
+        }
+
+        function addCollection() {
+            const poolName = document.getElementById("collection_pool_name").value;
+            const schemaName = document.getElementById("collection_schema_name").value;
+            const collectionName = document.getElementById("collection_name").value;
+            const containerType = document.getElementById("container_type").value;
+            sendRequest("/add_collection/", "POST", {pool_name: poolName, schema_name: schemaName, collection_name: collectionName, container_type: containerType});
+        }
+
+        function removeCollection() {
+            const poolName = document.getElementById("collection_pool_name_remove").value;
+            const schemaName = document.getElementById("collection_schema_name_remove").value;
+            const collectionName = document.getElementById("collection_name_remove").value;
+            sendRequest("/remove_collection/", "POST", {pool_name: poolName, schema_name: schemaName, collection_name: collectionName});
+        }
+
+        function addRecord() {
+            const poolName = document.getElementById("record_pool_name").value;
+            const key = document.getElementById("record_key").value;
+            const value = document.getElementById("record_value").value;
+            sendRequest("/add_record_avl/", "POST", {pool_name: poolName, key: key, value: value});
+        }
+
+        function getRecord() {
+            const poolName = document.getElementById("get_record_pool_name").value;
+            const key = document.getElementById("get_record_key").value;
+            fetch(`/get_record_avl/?pool_name=${poolName}&key=${key}`)
+                .then(response => response.json())
+                .then(data => alert(data.value || data.detail))
+                .catch(error => alert(error));
+        }
+    </script>
+</head>
+<body>
+    <h1>Data Storage System</h1>
+
+    <h2>Add Pool</h2>
+    <input type="text" id="pool_name" placeholder="Pool Name">
+    <button onclick="addPool()">Add Pool</button>
+
+    <h2>Remove Pool</h2>
+    <input type="text" id="pool_name_remove" placeholder="Pool Name">
+    <button onclick="removePool()">Remove Pool</button>
+
+    <h2>Add Schema</h2>
+    <input type="text" id="schema_pool_name" placeholder="Pool Name">
+    <input type="text" id="schema_name" placeholder="Schema Name">
+    <button onclick="addSchema()">Add Schema</button>
+
+    <h2>Remove Schema</h2>
+    <input type="text" id="schema_pool_name_remove" placeholder="Pool Name">
+    <input type="text" id="schema_name_remove" placeholder="Schema Name">
+    <button onclick="removeSchema()">Remove Schema</button>
+
+    <h2>Add Collection</h2>
+    <input type="text" id="collection_pool_name" placeholder="Pool Name">
+    <input type="text" id="collection_schema_name" placeholder="Schema Name">
+    <input type="text" id="collection_name" placeholder="Collection Name">
+    <input type="text" id="container_type" placeholder="Container Type (AVL, RED_BLACK)">
+    <button onclick="addCollection()">Add Collection</button>
+
+    <h2>Remove Collection</h2>
+    <input type="text" id="collection_pool_name_remove" placeholder="Pool Name">
+    <input type="text" id="collection_schema_name_remove" placeholder="Schema Name">
+    <input type="text" id="collection_name_remove" placeholder="Collection Name">
+    <button onclick="removeCollection()">Remove Collection</button>
+
+    <h2>Add Record</h2>
+    <input type="text" id="record_pool_name" placeholder="Pool Name">
+    <input type="text" id="record_key" placeholder="Record Key">
+    <input type="text" id="record_value" placeholder="Record Value">
+    <button onclick="addRecord()">Add Record</button>
+
+    <h2>Get Record</h2>
+    <input type="text" id="get_record_pool_name" placeholder="Pool Name">
+    <input type="text" id="get_record_key" placeholder="Record Key">
+    <button onclick="getRecord()">Get Record</button>
+</body>
+</html>

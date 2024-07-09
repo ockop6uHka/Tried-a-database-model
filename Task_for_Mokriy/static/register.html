@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <script>
+    function validateForm() {
+        var username = document.forms["registerForm"]["username"].value;
+        var password = document.forms["registerForm"]["password"].value;
+        var role = document.forms["registerForm"]["role"].value;
+
+        if (username.length < 5 || username.length > 15 || !/^[a-zA-Z0-9]+$/.test(username)) {
+            alert("Username must be between 5 and 15 characters and contain only letters and numbers.");
+            return false;
+        }
+
+        if (password.length < 8) {
+            alert("Password must be at least 8 characters long.");
+            return false;
+        }
+
+        if (!role) {
+            alert("Please select a role.");
+            return false;
+        }
+
+        return true;
+    }
+
+    async function handleRegistration(event) {
+        event.preventDefault();
+        if (validateForm()) {
+            const formData = new FormData(event.target);
+            const data = Object.fromEntries(formData.entries());
+
+            const response = await fetch("/register", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(data),
+            });
+
+            if (response.ok) {
+                const result = await response.json();
+                alert("Registration successful. Redirecting to login.");
+                window.location.href = "/login";
+            } else {
+                const result = await response.json();
+                alert(result.detail || "Registration failed.");
+            }
+        }
+    }
+    </script>
+</head>
+<body>
+    <h1>Register</h1>
+    <form name="registerForm" onsubmit="handleRegistration(event)">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="role">Role:</label>
+        <select id="role" name="role">
+            <option value="user">User</option>
+            <option value="editor">Editor</option>
+            <option value="administrator">Administrator</option>
+        </select><br><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>

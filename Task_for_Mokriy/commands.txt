@@ -1,0 +1,20 @@
+ADD_POOL pool1
+ADD_SCHEMA pool1 schema1
+ADD_RECORD_AVL pool1 1 value1
+ADD_RECORD_RED_BLACK pool1 2 value2
+SAVE_STATE initial_state.pickle
+GET_RECORD_AVL pool1 1
+GET_RECORD_RED_BLACK pool1 2
+REMOVE_POOL pool1
+ADD_RECORD pool1 schema1 collection1 key1 value1
+GET_RECORD pool1 schema1 collection1 key1
+UPDATE_RECORD pool1 schema1 collection1 key1 new_value1
+GET_RECORD pool1 schema1 collection1 key1
+SAVE_STATE modified_state.pickle
+DELETE_RECORD pool1 schema1 collection1 key1
+REMOVE_COLLECTION pool1 schema1 collection1
+REMOVE_SCHEMA pool1 schema1
+REMOVE_POOL pool1
+LOAD_STATE initial_state.pickle
+GET_RECORD_AVL pool1 1
+GET_RECORD_RED_BLACK pool1 2

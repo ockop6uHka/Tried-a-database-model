@@ -1,0 +1,262 @@
+2024-07-04 08:37:58,806 - INFO - Incoming request: GET http://127.0.0.1:8000/storage
+2024-07-04 08:37:58,875 - INFO - Request processed with status code 200
+2024-07-04 08:38:06,105 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-04 08:38:06,342 - INFO - Request processed with status code 200
+2024-07-04 08:38:11,176 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-04 08:38:11,178 - INFO - Request processed with status code 401
+2024-07-04 10:32:26,222 - INFO - Incoming request: GET http://127.0.0.1:8000/
+2024-07-04 10:32:26,303 - INFO - Request processed with status code 200
+2024-07-04 10:32:51,805 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-04 10:32:52,037 - INFO - Request processed with status code 200
+2024-07-04 10:32:55,746 - INFO - Incoming request: GET http://127.0.0.1:8000/storage
+2024-07-04 10:32:55,746 - INFO - Request processed with status code 200
+2024-07-04 10:33:08,917 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-04 10:33:08,918 - INFO - Request processed with status code 401
+2024-07-05 06:56:56,267 - INFO - Incoming request: GET http://127.0.0.1:8000/
+2024-07-05 06:56:56,340 - INFO - Request processed with status code 200
+2024-07-05 06:57:01,029 - INFO - Incoming request: GET http://127.0.0.1:8000/register
+2024-07-05 06:57:01,030 - INFO - Request processed with status code 200
+2024-07-05 06:57:16,797 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 06:57:17,033 - INFO - Request processed with status code 200
+2024-07-05 06:57:18,578 - INFO - Incoming request: GET http://127.0.0.1:8000/login
+2024-07-05 06:57:18,579 - INFO - Request processed with status code 200
+2024-07-05 06:57:26,502 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 06:57:26,738 - INFO - Request processed with status code 200
+2024-07-05 06:57:27,949 - INFO - Incoming request: GET http://127.0.0.1:8000/storage
+2024-07-05 06:57:27,950 - INFO - Request processed with status code 200
+2024-07-05 06:57:36,464 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-05 06:57:36,464 - INFO - Request processed with status code 401
+2024-07-05 06:57:41,812 - INFO - Incoming request: POST http://127.0.0.1:8000/remove_pool/
+2024-07-05 06:57:41,812 - INFO - Request processed with status code 401
+2024-07-05 06:57:49,500 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 06:57:49,501 - INFO - Request processed with status code 400
+2024-07-05 06:57:53,787 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 06:57:53,788 - INFO - Request processed with status code 400
+2024-07-05 06:57:56,809 - INFO - Incoming request: GET http://127.0.0.1:8000/register
+2024-07-05 06:57:56,810 - INFO - Request processed with status code 200
+2024-07-05 06:58:07,237 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 06:58:07,479 - INFO - Request processed with status code 200
+2024-07-05 06:58:08,674 - INFO - Incoming request: GET http://127.0.0.1:8000/login
+2024-07-05 06:58:08,675 - INFO - Request processed with status code 200
+2024-07-05 06:58:17,384 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 06:58:17,618 - INFO - Request processed with status code 200
+2024-07-05 06:58:21,895 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-05 06:58:21,895 - INFO - Request processed with status code 401
+2024-07-05 06:58:25,302 - INFO - Incoming request: POST http://127.0.0.1:8000/remove_pool/
+2024-07-05 06:58:25,303 - INFO - Request processed with status code 401
+2024-07-05 07:03:15,411 - INFO - Incoming request: GET http://127.0.0.1:8000/
+2024-07-05 07:03:15,482 - INFO - Request processed with status code 200
+2024-07-05 07:03:16,768 - INFO - Incoming request: GET http://127.0.0.1:8000/register
+2024-07-05 07:03:16,769 - INFO - Request processed with status code 200
+2024-07-05 07:03:23,582 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 07:03:23,817 - INFO - Request processed with status code 200
+2024-07-05 07:03:27,255 - INFO - Incoming request: GET http://127.0.0.1:8000/login
+2024-07-05 07:03:27,256 - INFO - Request processed with status code 200
+2024-07-05 07:03:32,482 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 07:03:32,483 - INFO - Request processed with status code 401
+2024-07-05 07:03:41,478 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 07:03:44,274 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 07:03:44,754 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 07:03:45,005 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 07:03:45,804 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 07:03:46,052 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 07:03:46,307 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 07:03:46,556 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 07:03:50,316 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 07:03:50,563 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 07:03:50,809 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 07:03:51,057 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 07:03:51,771 - INFO - Incoming request: GET http://127.0.0.1:8000/login
+2024-07-05 07:03:51,772 - INFO - Request processed with status code 200
+2024-07-05 07:03:59,813 - INFO - Incoming request: GET http://127.0.0.1:8000/
+2024-07-05 07:03:59,814 - INFO - Request processed with status code 200
+2024-07-05 07:04:00,368 - INFO - Incoming request: GET http://127.0.0.1:8000/
+2024-07-05 07:04:00,369 - INFO - Request processed with status code 200
+2024-07-05 07:04:00,981 - INFO - Incoming request: GET http://127.0.0.1:8000/register
+2024-07-05 07:04:00,982 - INFO - Request processed with status code 200
+2024-07-05 07:04:09,166 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 07:04:09,166 - INFO - Request processed with status code 400
+2024-07-05 07:04:11,302 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 07:04:11,302 - INFO - Request processed with status code 400
+2024-07-05 07:04:21,965 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 07:04:22,199 - INFO - Request processed with status code 200
+2024-07-05 07:04:29,197 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 07:15:34,587 - INFO - Incoming request: GET http://127.0.0.1:8000/register
+2024-07-05 07:15:34,658 - INFO - Request processed with status code 200
+2024-07-05 07:15:39,795 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 07:15:40,042 - INFO - Request processed with status code 200
+2024-07-05 07:15:41,205 - INFO - Incoming request: GET http://127.0.0.1:8000/login
+2024-07-05 07:15:41,206 - INFO - Request processed with status code 200
+2024-07-05 07:15:45,368 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 07:15:45,604 - INFO - Request processed with status code 200
+2024-07-05 07:15:50,127 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-05 07:15:50,128 - INFO - Request processed with status code 401
+2024-07-05 07:18:49,737 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 07:18:49,972 - INFO - Request processed with status code 200
+2024-07-05 07:18:51,828 - INFO - Incoming request: GET http://127.0.0.1:8000/login
+2024-07-05 07:18:51,902 - INFO - Request processed with status code 200
+2024-07-05 07:18:54,389 - INFO - Incoming request: GET http://127.0.0.1:8000/login
+2024-07-05 07:18:54,390 - INFO - Request processed with status code 200
+2024-07-05 07:19:03,400 - INFO - Incoming request: GET http://127.0.0.1:8000/token
+2024-07-05 07:19:03,400 - INFO - Request processed with status code 405
+2024-07-05 07:28:59,405 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-05 07:28:59,406 - INFO - Request processed with status code 401
+2024-07-05 07:29:55,771 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-05 07:29:55,771 - INFO - Request processed with status code 401
+2024-07-05 07:31:07,900 - INFO - Incoming request: GET http://127.0.0.1:8000/token
+2024-07-05 07:31:07,901 - INFO - Request processed with status code 405
+2024-07-05 07:31:08,740 - INFO - Incoming request: GET http://127.0.0.1:8000/token
+2024-07-05 07:31:08,740 - INFO - Request processed with status code 405
+2024-07-05 07:31:08,959 - INFO - Incoming request: GET http://127.0.0.1:8000/token
+2024-07-05 07:31:08,959 - INFO - Request processed with status code 405
+2024-07-05 07:31:09,132 - INFO - Incoming request: GET http://127.0.0.1:8000/token
+2024-07-05 07:31:09,132 - INFO - Request processed with status code 405
+2024-07-05 07:31:11,658 - INFO - Incoming request: GET http://127.0.0.1:8000/register
+2024-07-05 07:31:11,727 - INFO - Request processed with status code 200
+2024-07-05 07:31:17,004 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 07:31:17,245 - INFO - Request processed with status code 200
+2024-07-05 07:31:19,597 - INFO - Incoming request: GET http://127.0.0.1:8000/login
+2024-07-05 07:31:19,598 - INFO - Request processed with status code 200
+2024-07-05 07:31:26,059 - INFO - Incoming request: GET http://127.0.0.1:8000/token
+2024-07-05 07:31:26,059 - INFO - Request processed with status code 405
+2024-07-05 07:31:32,312 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 07:31:32,553 - INFO - Request processed with status code 200
+2024-07-05 07:31:34,696 - INFO - Incoming request: GET http://127.0.0.1:8000/token
+2024-07-05 07:31:34,696 - INFO - Request processed with status code 405
+2024-07-05 07:31:38,991 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-05 07:31:38,992 - INFO - Request processed with status code 401
+2024-07-05 07:59:57,137 - INFO - Incoming request: GET http://127.0.0.1:8000/
+2024-07-05 07:59:57,208 - INFO - Request processed with status code 200
+2024-07-05 07:59:59,090 - INFO - Incoming request: GET http://127.0.0.1:8000/register
+2024-07-05 07:59:59,091 - INFO - Request processed with status code 200
+2024-07-05 08:00:04,921 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 08:00:05,161 - INFO - Request processed with status code 200
+2024-07-05 08:00:07,720 - INFO - Incoming request: GET http://127.0.0.1:8000/login
+2024-07-05 08:00:07,721 - INFO - Request processed with status code 200
+2024-07-05 08:00:15,994 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 08:00:16,228 - INFO - Request processed with status code 200
+2024-07-05 08:00:30,122 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-05 08:00:30,123 - INFO - Request processed with status code 401
+2024-07-05 08:23:15,294 - INFO - Incoming request: GET http://127.0.0.1:8000/register
+2024-07-05 08:23:15,369 - INFO - Request processed with status code 200
+2024-07-05 08:23:20,409 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 08:23:20,649 - INFO - Request processed with status code 200
+2024-07-05 08:23:22,052 - INFO - Incoming request: GET http://127.0.0.1:8000/login
+2024-07-05 08:23:22,053 - INFO - Request processed with status code 200
+2024-07-05 08:23:29,880 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 08:23:30,118 - INFO - Request processed with status code 200
+2024-07-05 08:23:41,644 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-05 08:23:41,645 - INFO - Request processed with status code 401
+2024-07-05 08:31:43,326 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 08:31:43,561 - INFO - Request processed with status code 200
+2024-07-05 08:31:50,266 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 08:31:50,511 - INFO - Request processed with status code 200
+2024-07-05 08:31:57,542 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-05 08:31:57,543 - INFO - Request processed with status code 401
+2024-07-05 08:43:17,442 - INFO - Incoming request: GET http://127.0.0.1:8000/register
+2024-07-05 08:43:17,514 - INFO - Request processed with status code 200
+2024-07-05 08:43:18,474 - INFO - Incoming request: GET http://127.0.0.1:8000/register
+2024-07-05 08:43:18,475 - INFO - Request processed with status code 200
+2024-07-05 08:43:18,852 - INFO - Incoming request: GET http://127.0.0.1:8000/register
+2024-07-05 08:43:18,853 - INFO - Request processed with status code 200
+2024-07-05 08:43:27,001 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 08:43:27,252 - INFO - Request processed with status code 200
+2024-07-05 08:43:28,653 - INFO - Incoming request: GET http://127.0.0.1:8000/login
+2024-07-05 08:43:28,653 - INFO - Request processed with status code 200
+2024-07-05 08:43:33,239 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 08:43:33,484 - INFO - Request processed with status code 200
+2024-07-05 08:43:45,908 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-05 08:43:45,910 - INFO - Request processed with status code 401
+2024-07-05 08:46:17,590 - INFO - Incoming request: GET http://127.0.0.1:8000/
+2024-07-05 08:46:17,672 - INFO - Request processed with status code 200
+2024-07-05 08:46:19,247 - INFO - Incoming request: GET http://127.0.0.1:8000/register
+2024-07-05 08:46:19,248 - INFO - Request processed with status code 200
+2024-07-05 08:46:30,580 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 08:46:30,821 - INFO - Request processed with status code 200
+2024-07-05 08:46:37,141 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 08:46:37,379 - INFO - Request processed with status code 200
+2024-07-05 08:46:43,549 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-05 08:46:43,549 - INFO - Request processed with status code 401
+2024-07-05 09:03:22,716 - INFO - Incoming request: GET http://127.0.0.1:8000/register
+2024-07-05 09:03:22,788 - INFO - Request processed with status code 200
+2024-07-05 09:03:30,294 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 09:03:30,298 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Pavel\AppData\Roaming\Python\Python312\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-07-05 09:03:30,554 - INFO - Request processed with status code 200
+2024-07-05 09:03:31,534 - INFO - Incoming request: GET http://127.0.0.1:8000/login
+2024-07-05 09:03:31,535 - INFO - Request processed with status code 200
+2024-07-05 09:03:36,680 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 09:03:36,919 - INFO - Request processed with status code 200
+2024-07-05 09:03:45,247 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-05 09:03:45,248 - INFO - Request processed with status code 401
+2024-07-05 09:07:43,150 - INFO - Incoming request: GET http://127.0.0.1:8000/
+2024-07-05 09:07:43,243 - INFO - Request processed with status code 200
+2024-07-05 09:07:46,969 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 09:07:46,970 - INFO - Request processed with status code 401
+2024-07-05 09:07:50,459 - INFO - Incoming request: GET http://127.0.0.1:8000/register
+2024-07-05 09:07:50,460 - INFO - Request processed with status code 200
+2024-07-05 09:07:54,964 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 09:07:55,209 - INFO - Request processed with status code 200
+2024-07-05 09:08:00,391 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 09:08:00,632 - INFO - Request processed with status code 200
+2024-07-05 09:08:23,296 - INFO - Incoming request: GET http://127.0.0.1:8000/storage
+2024-07-05 09:08:23,297 - INFO - Request processed with status code 200
+2024-07-05 09:08:24,722 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-05 09:08:24,723 - INFO - Request processed with status code 401
+2024-07-05 09:10:20,117 - INFO - Incoming request: GET http://127.0.0.1:8000/storage
+2024-07-05 09:10:20,191 - INFO - Request processed with status code 200
+2024-07-05 09:10:24,681 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 09:10:24,925 - INFO - Request processed with status code 200
+2024-07-05 09:10:30,078 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 09:10:30,319 - INFO - Request processed with status code 200
+2024-07-05 09:10:34,367 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-05 09:10:34,367 - INFO - Request processed with status code 401
+2024-07-05 09:13:51,830 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 09:13:52,074 - INFO - Request processed with status code 200
+2024-07-05 09:13:57,966 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 09:13:58,208 - INFO - Request processed with status code 200
+2024-07-05 09:14:01,587 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-05 09:14:01,588 - INFO - Request processed with status code 401
+2024-07-05 09:14:12,896 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-05 09:14:12,896 - INFO - Request processed with status code 401
+2024-07-05 09:14:15,179 - INFO - Incoming request: POST http://127.0.0.1:8000/add_schema/
+2024-07-05 09:14:15,180 - INFO - Request processed with status code 401
+2024-07-05 09:17:10,866 - INFO - Incoming request: GET http://127.0.0.1:8000/register
+2024-07-05 09:17:10,939 - INFO - Request processed with status code 200
+2024-07-05 09:17:16,558 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 09:17:16,802 - INFO - Request processed with status code 200
+2024-07-05 09:17:17,759 - INFO - Incoming request: GET http://127.0.0.1:8000/login
+2024-07-05 09:17:17,760 - INFO - Request processed with status code 200
+2024-07-05 09:17:23,477 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 09:17:23,711 - INFO - Request processed with status code 200
+2024-07-05 09:19:54,082 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 09:19:54,316 - INFO - Request processed with status code 200
+2024-07-05 09:20:00,290 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 09:20:00,539 - INFO - Request processed with status code 200
+2024-07-05 09:20:31,469 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-05 09:20:31,471 - INFO - Request processed with status code 401
+2024-07-05 09:23:01,900 - INFO - Incoming request: GET http://127.0.0.1:8000/register
+2024-07-05 09:23:01,901 - INFO - Request processed with status code 405
+2024-07-05 09:23:24,717 - INFO - Incoming request: GET http://127.0.0.1:8000/register
+2024-07-05 09:23:24,793 - INFO - Request processed with status code 200
+2024-07-05 09:23:43,960 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 09:23:44,203 - INFO - Request processed with status code 200
+2024-07-05 09:23:59,051 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 09:23:59,292 - INFO - Request processed with status code 200
+2024-07-05 09:27:06,202 - INFO - Incoming request: GET http://127.0.0.1:8000/
+2024-07-05 09:27:06,288 - INFO - Request processed with status code 200
+2024-07-05 09:27:07,523 - INFO - Incoming request: GET http://127.0.0.1:8000/register
+2024-07-05 09:27:07,524 - INFO - Request processed with status code 200
+2024-07-05 09:27:16,398 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 09:27:16,639 - INFO - Request processed with status code 200
+2024-07-05 09:27:22,841 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 09:30:37,743 - INFO - Incoming request: POST http://127.0.0.1:8000/register
+2024-07-05 09:30:37,982 - INFO - Request processed with status code 200
+2024-07-05 09:30:43,933 - INFO - Incoming request: POST http://127.0.0.1:8000/token
+2024-07-05 09:30:44,180 - INFO - Request processed with status code 200
+2024-07-05 09:30:47,798 - INFO - Incoming request: POST http://127.0.0.1:8000/add_pool/
+2024-07-05 09:30:47,799 - INFO - Request processed with status code 401
